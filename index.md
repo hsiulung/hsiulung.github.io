@@ -1,37 +1,103 @@
-## Welcome to GitHub Pages
+# 自我介紹
+> [time=Mon, Sep 16, 2019 4:07 PM]
+> 
+##  :bookmark: 關於我
+* ### 暱稱
+    * 修龍/森千琉 (廢棄：森亂姬)
+    * 女，台灣人。圖文創作者，最近終於學會寫R18。近期練習繪圖中。
+    * 資訊專業，但是不會修電腦。~~(就算我會修也會說不懂！)~~
+    * 噗浪會曬政治文、小說閱讀感想、繪圖練習，創作碎碎唸等。
 
-You can use the [editor on GitHub](https://github.com/hsiulung/chantmoon.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+---
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+##  :bookmark: 自我介紹
+* ### 興趣
+    * :pencil2: 創作者，遊戲
+        * 宅腐兼修，百合偶有涉獵。英日文水準勉強過得去。
+        * 文圖兼修，大概是8：2左右，只寫原創。原創內容也是奇幻BG主，其次是BL。寫小說十幾年，平時看小說也會發表評語，但過去經常發表負平常常讓粉絲玻璃心破碎，只是一點也不感到抱歉。
+        * 稍微點了一些設計能力。
+    * :video_game: 主要是個遊戲宅 
+        * 平時還會玩點遊戲，興趣是經營養成/RPG/音樂遊戲很少。最近在玩戀與製作人，但是沒特別喜歡的角色，喜歡白起跟周琪洛的臉。
+        * 喜歡的二次元角色是TOV的尤里。
+    * :tv: 其次是動畫宅 
+        * 幾乎不看動畫也不寫感想，已經跟不上潮流。
+        * 看動畫跟小說口味頗為刁鑽，特別討厭熱血與夢想系作品，萌系也不喜歡。如果想看人罵作品可以看我的部落格。
+        * 不看韓劇，基本上看歐美與日劇，台劇非常少。
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+---
 
-# Header 1
-## Header 2
-### Header 3
+##  :bookmark: 活動範圍
+* ### 社群網站
+    * [日常：噗浪 - chantmoon](https://www.plurk.com/ChantMoon)
+    * [政治/日常：FB](https://www.facebook.com/hsiulung)
+    * [雜文：BLOG](https://hsiulung.pixnet.net/blog)
+    * [貼圖、小說：pixiv](https://www.pixiv.net/)
+    * [聯絡我：Telegram](http://t.me/hsiulung)
 
-- Bulleted
-- List
+---
 
-1. Numbered
-2. List
+* ## 小說創作
+    * 所有故事都有的tag：BG, 奇幻 (可能會混BL)
+    * [小說進度資料庫](https://docs.google.com/spreadsheets/d/1NDTAhV6rboodyjhhOTK7ItFosFJtS7Pg8OM2vKfjqt8/edit?usp=sharing)
+    * [藍月傳說系列](https://hackmd.io/@hsiulung/moon-saga)：奇幻冒險。最近準備填的長坑，講述神魔族的混血王子找到歸宿的故事。可以從外篇入手，分為光暗雪三條線。
+        * 光：藍月本篇，奇幻冒險故事。
+        * 暗：與主角父親龍有關的故事，氣氛比較憂鬱黑暗，可能有R18。
+        * 雪：水之都移動圖書館由希的故事，短篇集。
+    * [安息者系列](https://hackmd.io/@hsiulung/moon-saga#安息者-Makedeadmaner)：人偶師與聖者的戀愛故事。
+        * 01 獻給您的鎮魂歌：受傷的靈魂學會自我療傷與彼此依賴。
+        * 02 只為你盛開的人造花：茉莉找到安息之處及聖者艾昂學習與人類相處。
+        * 03 其名為神之劍：芙蕾雅倒追艾昂成功。
+    * **親愛的冒險者系列**
+        01. 遺失的聖劍埃爾薩梅(完成)：狄斯蘭斯與新主人克洛托的邂逅。
+        02. 親愛的瑟爾芬陛下(完成)：曼德爾與瑟爾芬相遇的故事。
+        03. 心愛的魔女小姐：曼德爾與伊文潔琳的後續。
+        04. 風之精靈女王：瑟爾芬單戀狄斯蘭斯的往事。
 
-**Bold** and _Italic_ and `Code` text
+* ### 延伸閱讀 
+    * [【目錄】小說系列導覽](https://reurl.cc/Ob1KV3)
+    * [【少女】安息者系列電子書](https://reurl.cc/oDLE0Q)
+    * [【電子書】全系列 (Google圖書)](https://play.google.com/store/books/author?id=%E4%BF%AE%E9%BE%8Dhttps://)
+    * [【電子書】全系列 (讀墨)](https://readmoo.com/contributor/46532)
 
-[Link](url) and ![Image](src)
-```
+---
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+* ### 最近更新：每篇都可以獨立閱讀。
+    * [[R-18] 藍月傳說．外篇：罪詠](https://www.pixiv.net/novel/show.php?id=11892081)：魔王父子的戀愛故事。(tag：R18, BL, 父子)
+    * [[R-18] 藍月傳說．外篇：女武神的黑玫瑰](https://www.pixiv.net/novel/show.php?id=11892281)：魔族三皇子龍．曼德沙的戀愛故事，藍月本篇的主角之一。(tag：R18, BG, 不適合喜歡雙處的人)
+    * [安息者01：獻給您的鎮魂歌](https://www.pixiv.net/novel/series/995177)：人偶師與聖者的戀愛故事。(tag：BG, 奇幻)
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hsiulung/chantmoon.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+	:::info
+    備註：電子書一律開放DRM-Free，你可以用自己想用的程式打開。
+    ::: 
 
-### Support or Contact
+---
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## 創作規劃
+* ### 修稿/寫作
+    * 2019-2020
+        * 修稿
+            * [ ] 安息者05 最後的聖者(修改)
+            * [ ] 藍月．光：01-07 (設定統一)
+        * 寫作
+            - [x] 安息者04 其名為神之劍
+            - [x] 藍月．雪：神代物語 (BL路線)
+            - [ ] 藍月．光：水之都篇08-13
+            - [ ] 藍月．暗：Everlasting
+
+    * ### 無時序
+        - [ ] 精靈系列短篇 - 心愛的魔女小姐
+        - [ ] 精靈系列短篇 - 風之精靈女王(暫)
+
+* ### 重版電子書
+    * 2019
+        * 藍月本傳 (舊版)
+        * 精靈系列 01+02
+
+---
+## 相關系列
+* [藍月本傳](https://hackmd.io/@hsiulung/moon-saga)
+
+###### tags: `intro` `小說`
