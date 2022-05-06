@@ -21,16 +21,7 @@
 
 
   
-    <meta property="og:type" content="website">
-<meta property="og:title" content="封存">
-<meta property="og:url" content="https://hsiulung.github.io/archives/2022/03/index.html">
-<meta property="og:site_name" content="琉的大圖書館">
-<meta property="og:locale" content="zh_TW">
-<meta property="article:author" content="森千琉">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:creator" content="@chantmoon">
-  
-  
+  <meta name="description" content="">
 
   <!-- feed -->
   
@@ -775,6 +766,25 @@
   </div>
 
 
+	  
+  <div id="disqus_thread"></div>
+  <script>
+      /**
+      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+      var disqus_config = function () {
+        this.page.url = '';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = ''; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://github-blog.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
       
 <footer class="page-footer reveal fs12"><hr><div class="sitemap"><div class="sitemap-group"><span class="fs14">藍月傳說</span><a href="/tags/%E8%97%8D%E6%9C%8801/">01-塔內的王子</a><a href="/tags/%E8%97%8D%E6%9C%8802/">02-水下都市</a><a href="/tags/%E8%97%8D%E6%9C%8803/">03-不滅的龍</a><a href="/tags/%E8%97%8D%E6%9C%8804/">04-往昔的榮光</a><a href="/tags/%E8%97%8D%E6%9C%8805/">05-滄雨的魔王</a><a href="/tags/%E8%97%8D%E6%9C%8806/">06-混沌之子</a></div><div class="sitemap-group"><span class="fs14">藍月外傳</span><a href="/tags/%E8%97%8D%E6%9C%88%E5%A4%96%E5%82%B31/">01-風之華</a><a href="/tags/%E8%97%8D%E6%9C%88%E5%A4%96%E5%82%B32/">02-罪詠/罪衍</a><a href="/tags/%E8%97%8D%E6%9C%88%E5%A4%96%E5%82%B33/">03-女武神的黑玫瑰</a><a href="/tags/%E8%97%8D%E6%9C%88%E5%A4%96%E5%82%B34/">04-常悠的國王陛下</a><a href="/tags/%E8%97%8D%E6%9C%88%E5%A4%96%E5%82%B35/">05-滄雨的魔王陛下</a><a href="/tags/%E8%97%8D%E6%9C%88%E5%A4%96%E5%82%B36/">06-無名龍王</a></div><div class="sitemap-group"><span class="fs14">安息者</span><a href="/tags/%E5%AE%89%E6%81%AF%E8%80%851/">01-人偶王子與夏之公主</a><a href="/tags/%E5%AE%89%E6%81%AF%E8%80%852/">02-獻給您的鎮魂歌</a><a href="/tags/%E5%AE%89%E6%81%AF%E8%80%853/">03-只為你盛開的人造花</a><a href="/tags/%E5%AE%89%E6%81%AF%E8%80%854/">04-其名為神之劍</a><a href="/tags/%E5%AE%89%E6%81%AF%E8%80%855/">05-最後的聖者</a><a href="/tags/%E5%AE%89%E6%81%AF%E8%80%856/">06-聖者的漫步</a></div><div class="sitemap-group"><span class="fs14">冒險者</span><a href="/tags/%E5%86%92%E9%9A%AA%E8%80%8501/">01-遺失的精靈</a><a href="/tags/%E5%86%92%E9%9A%AA%E8%80%8502/">02-親愛的瑟爾芬陛下</a><a href="/tags/%E5%86%92%E9%9A%AA%E8%80%8503/">03-親愛的魔女小姐</a><a href="/tags/%E5%86%92%E9%9A%AA%E8%80%8504/">04-風之精靈女王</a></div><div class="sitemap-group"><span class="fs14">設定</span><a href="/wiki/moon-saga/index.html">藍月傳說</a><a href="/wiki/marionette/index.html">安息者</a></div></div><div class="text"><p>本網誌所有文章除特別聲明外，均採用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 授權條款。轉載請註明出處。</p>
 <p>本站由 <a href="https://hsiulung.github.io/">@森千琉</a> 建立，使用 <a target="_blank" rel="noopener" href="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.6.1" title="v1.6.1">Stellar</a> 作為主題。您可以在 <a target="_blank" rel="noopener" href="https://github.com/xaoxuu/hexo-theme-stellar">GitHub</a> 找到本站原始碼。</p>
@@ -923,39 +933,12 @@
 
 <!-- optional -->
 
-  <script>
-  function loadUtterances() {
-    const els = document.querySelectorAll("#comments #utterances");
-    if (els.length === 0) return;
-    els.forEach((el, i) => {
-      try {
-        el.innerHTML = '';
-      } catch (error) {
-        console.log(error);
-      }
-      var script = document.createElement('script');
-      script.src = 'https://utteranc.es/client.js';
-      script.async = true;
-      for (let key of Object.keys(el.attributes)) {
-        let attr = el.attributes[key];
-        if (['class', 'id'].includes(attr.name) === false) {
-          script.setAttribute(attr.name, attr.value);
-        }
-      }
-      el.appendChild(script);
-    });
-  }
-  window.addEventListener('DOMContentLoaded', (event) => {
-      loadUtterances();
-  });
-</script>
-
-
 
 
 <!-- inject -->
 
 
   </div>
+  
 </body>
 </html>
