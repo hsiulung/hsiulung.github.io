@@ -647,22 +647,22 @@
           </div>
   			
   				<div class='archive-list'>
-            <a class='post fs14' href="/2022/05/06/%E3%80%90%E8%97%8D%E6%9C%88%E3%80%91%E7%AC%AC%E4%BA%94%E8%A9%B1%EF%BC%8C%E5%91%BD%E9%81%8B%E4%B9%8B%E8%BC%AA/">
+            <a class='post fs14' href="/2022/05/06/%E3%80%90%E8%97%8D%E6%9C%88%E3%80%91%E7%AC%AC%E5%85%AD%E8%A9%B1%EF%BC%8C%E7%B5%90%E7%95%8C%E5%85%AC%E4%B8%BB/">
     					<time>05-06</time>
     					<span>
                 
-      						【藍月】第五話，命運之輪
+      						【藍月】第六話，結界公主
       					
               </span>
     				</a>
           </div>
   			
   				<div class='archive-list'>
-            <a class='post fs14' href="/2022/05/06/%E3%80%90%E8%97%8D%E6%9C%88%E3%80%91%E7%AC%AC%E5%85%AD%E8%A9%B1%EF%BC%8C%E7%B5%90%E7%95%8C%E5%85%AC%E4%B8%BB/">
+            <a class='post fs14' href="/2022/05/06/%E3%80%90%E8%97%8D%E6%9C%88%E3%80%91%E7%AC%AC%E4%BA%94%E8%A9%B1%EF%BC%8C%E5%91%BD%E9%81%8B%E4%B9%8B%E8%BC%AA/">
     					<time>05-06</time>
     					<span>
                 
-      						【藍月】第六話，結界公主
+      						【藍月】第五話，命運之輪
       					
               </span>
     				</a>
@@ -910,8 +910,8 @@
 <!-- optional -->
 
   <script>
-  function loadBeaudar() {
-    const els = document.querySelectorAll("#comments #beaudar");
+  function loadUtterances() {
+    const els = document.querySelectorAll("#comments #utterances");
     if (els.length === 0) return;
     els.forEach((el, i) => {
       try {
@@ -920,7 +920,7 @@
         console.log(error);
       }
       var script = document.createElement('script');
-      script.src = 'https://beaudar.lipk.org/client.js';
+      script.src = 'https://utteranc.es/client.js';
       script.async = true;
       for (let key of Object.keys(el.attributes)) {
         let attr = el.attributes[key];
@@ -932,7 +932,7 @@
     });
   }
   window.addEventListener('DOMContentLoaded', (event) => {
-      loadBeaudar();
+      loadUtterances();
   });
 </script>
 

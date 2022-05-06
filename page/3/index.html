@@ -300,8 +300,8 @@
 <!-- optional -->
 
   <script>
-  function loadBeaudar() {
-    const els = document.querySelectorAll("#comments #beaudar");
+  function loadUtterances() {
+    const els = document.querySelectorAll("#comments #utterances");
     if (els.length === 0) return;
     els.forEach((el, i) => {
       try {
@@ -310,7 +310,7 @@
         console.log(error);
       }
       var script = document.createElement('script');
-      script.src = 'https://beaudar.lipk.org/client.js';
+      script.src = 'https://utteranc.es/client.js';
       script.async = true;
       for (let key of Object.keys(el.attributes)) {
         let attr = el.attributes[key];
@@ -322,7 +322,7 @@
     });
   }
   window.addEventListener('DOMContentLoaded', (event) => {
-      loadBeaudar();
+      loadUtterances();
   });
 </script>
 

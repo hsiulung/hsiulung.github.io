@@ -270,8 +270,8 @@ http...</p></div><div class="meta cap"><span class="cap" id="post-meta">發布�
 <!-- optional -->
 
   <script>
-  function loadBeaudar() {
-    const els = document.querySelectorAll("#comments #beaudar");
+  function loadUtterances() {
+    const els = document.querySelectorAll("#comments #utterances");
     if (els.length === 0) return;
     els.forEach((el, i) => {
       try {
@@ -280,7 +280,7 @@ http...</p></div><div class="meta cap"><span class="cap" id="post-meta">發布�
         console.log(error);
       }
       var script = document.createElement('script');
-      script.src = 'https://beaudar.lipk.org/client.js';
+      script.src = 'https://utteranc.es/client.js';
       script.async = true;
       for (let key of Object.keys(el.attributes)) {
         let attr = el.attributes[key];
@@ -292,7 +292,7 @@ http...</p></div><div class="meta cap"><span class="cap" id="post-meta">發布�
     });
   }
   window.addEventListener('DOMContentLoaded', (event) => {
-      loadBeaudar();
+      loadUtterances();
   });
 </script>
 
