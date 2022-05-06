@@ -1347,7 +1347,6 @@ nav.cap a+a {
   border-radius: 2px;
   flex-shrink: 0;
   margin-right: 8px;
-  pointer-events: none;
 }
 .md .checkbox span {
   margin-top: 1px;
