@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang='zh-TW'>
+
+<head>
+  <meta name="generator" content="Hexo 6.1.0">
+  <meta charset="utf-8">
+  
+
+  <meta http-equiv='x-dns-prefetch-control' content='on' />
+  <link rel='dns-prefetch' href='https://cdn.jsdelivr.net'>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+
+  <meta name="renderer" content="webkit">
+  <meta name="force-rendering" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="HandheldFriendly" content="True" >
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="theme-color" content="#f8f8f8">
+  <title>五、約定 PROMISE - 琉的大圖書館</title>
+
+
+  
+  <meta name="description" content="　　　我們一起走吧。
+　　　於是我們暫時離開了世界，有生以來頭一次感覺幸福。
+　　　我們兩人就是世界，世界之外都是塵埃。
+　　　作為在墜落深淵之前的賀禮再好不過。
+　　　
+＊　　　
+　　　跟龍的神族語課程在週一與週五，雖然他算不上準時，卻從沒缺席。有一次，他甚至是完成了任務帶著傷過來，還把維亞...">
+
+  <!-- feed -->
+  
+    <link rel="alternate" href="/atom.xml" title="琉的大圖書館" type="application/atom+xml">
+  
+
+  
+    
+<link rel="stylesheet" href="/css/main.css">
+
+  
+
+  
+
+  
+  
+  
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5CV1L7GFFN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5CV1L7GFFN');
+</script>
+
+</head>
+
+
+<body>
+  
+
+
+  <div class='l_body' id='start'>
+    <aside class='l_left' layout='post'>
+    
+
+
+<header class="header">
+
+<div class="logo-wrap"><a class="avatar" href="/about/"><div class="bg" style="opacity:0;background-image:url(https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.2/avatar/round/rainbow64@3x.webp);"></div><img no-lazy class="avatar" src="https://avatars.plurk.com/16109609-big50683006.jpg" onerror="javascript:this.classList.add('error');this.src='https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/image/2659360.svg';"></a><a class="title" href="/"><div class="main">琉的大圖書館</div></a></div>
+<nav class="menu dis-select"><a class="nav-item active" href="/">網誌</a><a class="nav-item" href="/wiki/">大圖書館</a><a class="nav-item" href="/about/">關於</a><a class="nav-item" href="/timeline/">軌跡</a></nav></header>
+
+<div class="widgets">
+
+<div class="widget-wrap single" id="toc"><div class="widget-header cap dis-select"><span class="name">本文目錄</span></div><div class="widget-body fs14"><div class="doc-tree active"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%EF%BC%8A"><span class="toc-number">1.</span> <span class="toc-text">＊</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%EF%BC%8A-1"><span class="toc-number">2.</span> <span class="toc-text">＊</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%EF%BC%8A-2"><span class="toc-number">3.</span> <span class="toc-text">＊</span></a></li></ol></div></div></div>
+
+
+</div>
+<footer class="footer dis-select"><div class="social-wrap"><a class="social" href="https://www.plurk.com/ChantMoon" target="_blank" rel="external nofollow noopener noreferrer"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://s.plurk.com/brand/479e7351bbf90f495360.png"/></a><a class="social" href="https://twitter.com/chantmoon" target="_blank" rel="external nofollow noopener noreferrer"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/3845874.svg"/></a><a class="social" href="https://www.instagram.com/chantmoon.tw/" target="_blank" rel="external nofollow noopener noreferrer"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/3616429.svg"/></a><a class="social" href="/about/#comments" rel="noopener noreferrer"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/942ebbf1a4b91.svg"/></a></div></footer>
+
+    </aside>
+    <div class='l_main'>
+      
+
+      
+
+
+
+<div class="bread-nav fs12"><div id="breadcrumb"><a class="cap breadcrumb" href="/">首頁</a><span class="sep"></span><a class="cap breadcrumb" href="/">網誌</a><span class="sep"></span><a class="cap breadcrumb-link" href="/categories/%E8%97%8D%E6%9C%88%E5%A4%96%E7%AF%87/">藍月外篇</a> <span class="sep"></span> <a class="cap breadcrumb-link" href="/categories/%E8%97%8D%E6%9C%88%E5%A4%96%E7%AF%87/01-%E7%BD%AA%E8%A9%A0/">01-罪詠</a></div><div id="post-meta">發布於&nbsp;<time datetime="2019-08-18T09:06:00.000Z">2019-08-18</time></div></div>
+
+<article class='content md post'>
+<h1 class="article-title"><span>五、約定 PROMISE</span></h1>
+<p>　　　我們一起走吧。</p>
+<p>　　　於是我們暫時離開了世界，有生以來頭一次感覺幸福。</p>
+<p>　　　我們兩人就是世界，世界之外都是塵埃。</p>
+<p>　　　作為在墜落深淵之前的賀禮再好不過。</p>
+<p>　　　</p>
+<h2 id="＊"><a href="#＊" class="headerlink" title="＊"></a>＊</h2><p>　　　</p>
+<p>　　　跟龍的神族語課程在週一與週五，雖然他算不上準時，卻從沒缺席。有一次，他甚至是完成了任務帶著傷過來，還把維亞嚇了一跳。龍對承諾頗為重視，甚至還得意洋洋地交上了維亞交代的作業，因而挨了維亞一頓罵。</p>
+<p>　　　維亞在龍有任務的日子會先準備好藥，正好替他治傷。他回來的時候往往情緒高昂，談著獵殺的怪物時神采飛揚的樣子，確實有魔族好戰的影子。</p>
+<p>　　　之前的課程提到了十六神的史詩，接下來的課程，雖然是經典，卻不得不說帶了不少私心在內，因為接下來的課程是情詩。</p>
+<p>　　　他想親口教會龍用用神族的古語告白，即使他想著別人又有什麼關係？</p>
+<p>　　　因此他期待了很久，可是，卻落了空。</p>
+<p>　　　十一點的鐘聲敲響時，維亞不安地抬起頭。他知道，龍是不會來了。過了好陣子由希找到他，帶來龍的口信。</p>
+<p>　　　「他說，這幾週會暫時缺席感到很抱歉。」</p>
+<p>　　　由希遞過來一本書，但維亞沒有接，正是幾週前送給龍的書。</p>
+<p>　　　維亞沒有接。「這是什麼意思？」</p>
+<p>　　　由希手痠了，直接把書扔在桌上。</p>
+<p>　　　「我不能代他發言，但我能告訴你，魔王陛下來了。話傳到了，我走了。」</p>
+<p>　　　翻開書，不少地方做了筆記，還有一些是維亞的字。</p>
+<p>　　　這本書是兩人相處的記憶。</p>
+<p>　　　維亞看著那本書很久。他經常被龍耍得團團轉，覺得這位隨心所欲的皇子殿下很難懂。不知何故，他這回卻搞懂了龍的意思。</p>
+<p>　　　這是感謝他的關心，同時告訴維亞，還是決定選擇徹。</p>
+<p>　　　——以及日後不會見面了。</p>
+<p>　　　總覺得龍還是知道他的心意，只是裝作不知道。維亞無意識地去碰那本書，翻開書頁，龍用蹩腳的古語文字寫了自己的名字。</p>
+<p>　　　沒有機會教到的情詩，龍卻先複習過了。</p>
+<p>　　　看見他在其中一首上面寫著「謝謝你」。</p>
+<p>　　　書裡有龍留給他的信箋。</p>
+<p>　　　「我沒有資格留下這本書，想了很久也捨不得扔掉，所以把他還你。」</p>
+<p>　　　「如果不需要的話，就把它扔了吧。」</p>
+<p>　　　用的還是神族的古語，措辭優美斟酌，顯然學得還不錯。</p>
+<p>　　　明明沒有告白，卻先被拒絕本來應該讓人感到很悲慘，可是，看著書本想著兩人相處的點滴，維亞忍不住哭出來，引來旁人側目。</p>
+<p>　　　由希還沒走，見他哭了，遞給他手帕，還順便比了個安靜的手勢。</p>
+<p>　　　對失戀的人這麼沒有同情心，簡直喪盡天良。</p>
+<p>　　　如果維亞站起來走幾步，就可以看見不遠處的龍跟徹。龍遠遠地看著維亞，表情有點複雜，顯然在這裡看了很久。徹輕聲說：「其實你可以去跟他道別，那樣應該比較好。」</p>
+<p>　　　「不行。」龍說，「如果我這時走過去，就會變得像你一樣。」</p>
+<p>　　　「真是嚴厲。」徹摟住他的肩，龍沒有拒絕，卻也不像過去那樣熱情。他若有所思地望著維亞，表情成熟地不像是他。</p>
+<p>　　　「心動了嗎？」</p>
+<p>　　　「是勝利者的游刃有餘嗎？我討厭你這問題。」龍抬眼看他，眼神帶著責備：「他想要的情感跟我給不起，我們不可能當朋友。不說這個了，你過來多久？」</p>
+<p>　　　龍摟住他的頸子，吞下他還沒說出口的話，分開時還舔了下嘴唇。「睡覺時間到了嗎？」</p>
+<p>　　　徹無聲地笑了一下，垂首看他 。「變熟練了。」</p>
+<p>　　　「……因為練習了很多次。你不是知道嗎？」龍笑著用手指畫過他的嘴唇，一臉玩笑似的戲謔，「這不就是你的目的嗎。怎麼樣，還不高興了？」</p>
+<p>　　　「這是陷阱題。不管我怎麼回答，你都要不高興。」</p>
+<p>　　　龍笑而不答，算是默認。</p>
+<p>　　　「那我來問點像是父親的問題吧。學校如何？」</p>
+<p>　　　「有點意思，學了些以為永遠都不會學的東西，還交了幾個朋友。」龍說了才想到這些內容信內都寫過，徹卻微微點頭微笑，「啊，你都知道了。」</p>
+<p>　　　「沒關係，我更想聽你親口說。」</p>
+<p>　　　久別再見，他看起來心情不錯，小小地表現了吃醋。龍接著說了他跟維亞見面的事，還講了幾次去大圖書館的見聞。跟他講起學業時，終於有了點父子或者兄弟的感覺，也說不上是高興還是不高興。</p>
+<p>　　　徹的情緒很平穩，像是魔王陛下聆聽下屬的報告似的。龍說著有了點情緒，忍不住說：「你來這裡不是要問你早就知道的事情吧。」</p>
+<p>　　　「當然不是，我來這裡是為了見你。」</p>
+<p>　　　接下來的抱怨就被堵得說不出口了。</p>
+<p>　　　龍有一點無奈，「你總是這樣。」</p>
+<p>　　　「怎麼樣？」</p>
+<p>　　　龍伸手去勾他的脖子。「說些讓人不能繼續生氣的話。」</p>
+<p>　　　「所以你還想對我生氣。」</p>
+<p>　　　「對。因為你扔下我不管，還一點也不寂寞的樣子……好像就只是因為我想見你，所以你才過來。」</p>
+<p>　　　徹笑著去親他，維持稍微仰頭的姿勢。「你怎麼知道我不寂寞。難道要我哭著跑向你，你才會覺得我很寂寞嗎？」</p>
+<p>　　　「你太冷靜了。」龍嘟噥道，「什麼時候都很冷靜。」</p>
+<p>　　　「你不是喜歡我這一點嗎？」</p>
+<p>　　　「是喜歡，但有時候覺得很討厭。」</p>
+<p>　　　徹凝視他的目光多了幾分探究：「我很久以前就是這樣了，以後也會是這樣。但是，我不想被你討厭。」</p>
+<p>　　　龍「哼」了一聲去摟他，感覺他微微地縮了一下，這才發現他又負傷了。半逼迫他脫下上衣，纏住身體的繃帶滲出點點血跡。熟悉的身體上，新舊傷交疊，一時看起來有些可怖。</p>
+<p>　　　「大概兩天會好，不需要擔心。」</p>
+<p>　　　「這是怎麼回事？」</p>
+<p>　　　徹沉默了幾秒，這次難得坦白：「我為了確認謠言秘密去了一趟歐龍，一時大意受了傷。不過，倒是弄到了有意思的情報。你想先聽情報，還是先來做其他的事情？」</p>
+<p>　　　明知道這是陷阱，龍還是說：「請報可以晚一點。」</p>
+<p>　　　兩人秘密回了水之都的王宮，在女王位貴客準備的房間休息。今天徹好像特別疲倦，就只是摟著他半閉著眼睛，像是休息又像是沉思。</p>
+<p>　　　龍看他累了，也沒有特別打擾，蹭著他去玩弄他的頭髮。</p>
+<p>　　　束著頭髮的紅鈴叮叮噹噹地落在地上，龍愉快地欣賞他難得散髮的模樣，心想這個人才是魔族之花吧。他很喜歡徹任他擺弄的樣子，可以從他的縱容中感覺到自己確實很特別。</p>
+<p>　　　「你好像不喜歡這鈴鐺。」</p>
+<p>　　　龍笑笑地看他：「你確定要問這個問題嗎？」</p>
+<p>　　　「說起來，我似乎沒跟你說過。這鈴鐺確實是龍王送我的，但是，這並不只是你們以為的定情之物那樣的東西。」</p>
+<p>　　　「那是什麼？」</p>
+<p>　　　「是鎮壓詛咒的東西。」徹說著撩起了手臂。</p>
+<p>　　　白皙的手臂可以看到快好的傷痕，定睛一看，能夠看見依稀的黑色紋路沿著指尖爬上手臂，就像是在身上刺青似的。</p>
+<p>　　　「對不起。但是，還是把鈴鐺還給我吧？」</p>
+<p>　　　龍只好去撿了鈴鐺但是繫在了他衣領的緞帶上，自顧自的咯咯笑起來：「這樣看起來像是小貓一樣。」</p>
+<p>　　　「那你要帶回去養嗎？」</p>
+<p>　　　「唔，我是很想……但我想要當唯一的主人。」</p>
+<p>　　　不知道是否是錯覺，今天的徹好像特別坦率也喜歡撒嬌。龍直覺知道發生了什麼事，思索著應該從什麼角度探究，徹卻先開口了：「遇到了感興趣的對象嗎？」</p>
+<p>　　　龍瞥了他一眼，真不知道他是以情人還是以父親的身分問的。不過，既然他兩種身分都有，這麼平靜就是讓人火大。「我試過了，但是不行，男的女的都一樣。看久了，還是覺得我比他們好看。」</p>
+<p>　　　徹無聲地笑了。</p>
+<p>　　　「我發現，想在他們身上尋找像你的地方。所以，還是放棄了，就是睡一覺也沒什麼。如果要交往的話果然還是不行。你就是想要這種答案嗎？」</p>
+<p>　　　短暫沉默後，徹說：「我也不知道。」</p>
+<p>　　　龍笑道：「都是你害的，你要對我負責。」</p>
+<p>　　　「只要我是魔王的一天，我就做不到。」</p>
+<p>　　　「所以我只是說說而已。」</p>
+<p>　　　他們已經習慣了這種互相試探，至今那種椎心的心痛也成了模糊的鈍痛。</p>
+<p>　　　「以我的身分來說，實在不適合指點你交往的對象。但是，我還是想以父親的身分勸你……不要太相信維亞．曼特爾。」</p>
+<p>　　　龍笑道：「那麼，父親大人會讓我相信徹．曼德沙嗎？」</p>
+<p>　　　「不會。」</p>
+<p>　　　這話答得有點出人意料，龍僵了一下，「為什麼？」</p>
+<p>　　　「那是個除了殺戮以外一無所有的人，除了傷害以外什麼也給不了你。」</p>
+<p>　　　龍有點生氣：「你憑什麼這麼說？」</p>
+<p>　　　龍心裡很清楚，這話有點無理取鬧。雖然徹外表年輕，但他是被譽為有史以來最強魔王的人，還被帶著敬畏稱呼為闇皇。不單是指他的戰鬥能力，他在獲取情報上的能力也是一絕。</p>
+<p>　　　可是，不這樣逼就聽不到他的真心話。那怕真心話會讓人受傷，至少讓發臭的傷口流出膿汁總有天會好。</p>
+<p>　　　「如果帶著傷過來，你就捨不得對我生氣了。」徹說，「我很狡猾吧？」</p>
+<p>　　　龍很早就發現這件事，雖然不喜歡他勉強自己，但不得不說，龍確實很喜歡看他難得脆弱的樣子。這讓他想要變強，希望總有一天能夠守護他。</p>
+<p>　　　即使他並不想要。</p>
+<p>　　　「你本來就很狡猾。明明是你先喜歡我的，卻引誘我告白，太過分了。」</p>
+<p>　　　「……這也知道了嗎？」</p>
+<p>　　　「我當然知道，我知道很多你的事。」龍哼了哼，「哪怕你不承認，你受傷的時候只會想見我，就證明了你是愛我的。除了我之外，你不相信別人，所以才來找我。」</p>
+<p>　　　徹微微笑，「因為我想見你，所以就過來了。」</p>
+<p>　　　真心話中，徹只挑了聽到會讓龍開心的部份說。他沒說的是，這不是因為他信賴龍，只是因為即使覺得被他殺死也無所謂而已。</p>
+<p>　　　「露好像一直很擔心你的事，你想找時間跟她見面嗎？」</p>
+<p>　　　「不想。」龍答得很快，氣沖沖的模樣像足了小孩，「她肯定會說我這陣子很亂來，我不想聽她說教。」</p>
+<p>　　　徹笑笑地看著他：「那介意我說教嗎？」</p>
+<p>　　　「介意，但是你可以吃醋。」</p>
+<p>　　　「唔，那就不說了。」</p>
+<p>　　　「徹！」</p>
+<p>　　　徹發出愉悅的低笑。龍喜歡看他發自內心的笑，這副表情遠比平時偽裝的完美紳士還要好看多了，而且只屬於他。</p>
+<p>　　　這想法讓龍心情稍微好了一點。</p>
+<p>　　　多琳女王也很貼心的把放在寢室的課本都放拿過來，徹支著頭翻龍的課本，像是老師檢查著作業那樣。</p>
+<p>　　　「讓我多說教一句吧。離維亞．曼特爾遠一點。」</p>
+<p>　　　「你會吃醋嗎？」</p>
+<p>　　　徹散著髮，單手支頭看著他：「你想要我哄你，還是聽我的真心話？」</p>
+<p>　　　「先哄哄我再說真話。」</p>
+<p>　　　「看你跟他要好，我確實不怎麼高興，以情人的角度我是沒有立場管你的，就只好用父親的立場來對你說教。」</p>
+<p>　　　龍有點不大愉快：「就因為維亞是歐龍的人？恕我直言，維亞．曼特爾真的很弱，我只要單手就能殺了他。他的體質虛弱，沒有練武的才能，魔力也很一般，根本不像王室的人。如果真的刀劍相向，我不可能會輸。你的擔心對我來說，幾乎是侮辱。」</p>
+<p>　　　徹抬頭看他：「你下得了手嗎？」</p>
+<p>　　　龍愣了一下。</p>
+<p>　　　「我相信你的實力。但是，我認為你對惡意沒有清楚的認識。他們就是想要這點時間。只要你有半點遲疑，就會落入陷阱。他們不想要你的命，是想要你活著當我的弱點。」</p>
+<p>　　　徹很有可能是對的，但他的話還是刺痛了龍。</p>
+<p>　　　在水之都這段時間，龍也有少許愉快的時間，其中大多數跟維亞有關。這樣說起來，好像就否認了他們的友情——或者就在逼他承認，其實維亞根本不是想跟他當朋友，而是別的。</p>
+<p>　　　像是在逼他承認，他除了情人之外根本沒有朋友。</p>
+<p>　　　這個認知太沉痛，龍反射性地否認：「這不可能。如果真要害我，有很多方法……」龍說著表情越來越難看，「不行，再讓我想想。」</p>
+<p>　　　至於維亞的事情，情感上不好處理，倒不算很難辦。兩人年級、學科不同，只要不特意約定基本上不會見面。扣掉私交，常悠跟歐龍之間本來就水火不容，兩人的友情收在這裡還是最好的。</p>
+<p>　　　龍不禁握起了拳頭。</p>
+<p>　　　「即使你會受傷，也想自己找答案嗎？」</p>
+<p>　　　徹輕輕地拍了下他的頭。龍眼睛微微紅了，他忍著沒有哭，點了頭。徹接著道：「我可以答應你。但是，在我離開水之都前，你必須接受我的特訓。最後，我會親自跟你打，你必須撐至少一分鐘。可以吧？」</p>
+<p>　　　「你在小看我嗎？」</p>
+<p>　　　徹微微瞪大眼睛：「不，我想我是在高估你。要不要試試？」</p>
+<p>　　　於是，兩人雖見了面、一起過夜，地點雖然在房間卻不是在床上。</p>
+<p>　　　——這怎麼可能？</p>
+<p>　　　沒過十秒，手腕重擊，劍脫手而出。</p>
+<p>　　　即使兩人有年齡差，可是徹拿的是普通的劍，而龍是用星澄送的魔劍。徹慢悠悠的把劍遞給龍，還摸了摸他被敲的手腕。</p>
+<p>　　　學什麼像什麼，不知道什麼叫做困難的天之驕子，終於在擅長的領域受到重挫。龍愣愣地看著劍，又去看徹。</p>
+<p>　　　明明能聽見鈴聲響起的瞬間，身體做出反應之前，劍卻脫了手，連他的氣息都感覺不到。這就是實力的差距嗎？</p>
+<p>　　　而且……他可是受了傷！</p>
+<p>　　　「這就叫做經驗差距。」</p>
+<p>　　　「這怎麼可能？」</p>
+<p>　　　「我知道你贏過冽，但是，如果你把我跟冽放在同一個高度上，我可能會不大高興。露小時候也被我禁足，我當時也是跟他說，要跟我對打，撐下半分鐘。她大概兩個禮拜就放棄了。」徹瞇著眼笑道，「怎麼樣，想放棄嗎？」</p>
+<p>　　　握劍的徹氣勢太強了，雖然依舊迷人但一點也不溫柔。</p>
+<p>　　　龍在他的注視下退了半步。</p>
+<p>　　　「不要！」</p>
+<p>　　　</p>
+<h2 id="＊-1"><a href="#＊-1" class="headerlink" title="＊"></a>＊</h2><p>　　　</p>
+<p>　　　這場練習毫不意外地以龍的失敗告終。</p>
+<p>　　　身心受挫的龍看到徹就生氣，所以才去了學校，正好看見維亞在等他。他有點想轉頭就走，最後還是維持笑容走過去，向他道了早安。</p>
+<p>　　　「早安，三皇子殿下。」</p>
+<p>　　　龍突然想起，認識以來維亞從來沒喊過他的名字。或許連「朋友」這件事，也是他的一廂情願？</p>
+<p>　　　兩人根據習慣坐在了最後面。</p>
+<p>　　　維亞道：「聽說陛下來了，我還以為你今天不會上課。」</p>
+<p>　　　「……我是不怎麼想。只是，我需要一些人來幫我恢復破碎的自尊心。」</p>
+<p>　　　「自尊心？」</p>
+<p>　　　龍嘆了氣。「作為戰士的自尊。」</p>
+<p>　　　維亞一臉困惑，但他很快就會懂了。</p>
+<p>　　　——因為這堂是實戰課程。</p>
+<p>　　　龍換了練習用劍，報名了實戰練習，輕鬆打敗了同級的所有學員，破格直接提升到中階班，導師表示，再沒多久他就可以直接前往高階班。</p>
+<p>　　　這雖然幫助他重塑了自信，可惜並沒有改善現況。</p>
+<p>　　　龍最初其實是有意塑造自己的負面形象，讓人提起他就會想到「魔族之花」而不是闇皇的孩子。他的外貌長得好看，態度又有些輕浮，容易讓人小看，而他也很樂於利用這樣的狀況，畢竟讓人小看總是比較安全。</p>
+<p>　　　但這樣慢悠悠的學下去，花在語言的時間還比武術上更長，永遠都贏不了徹，要被他當成小孩子護著，甚至沒辦法親自追尋真相。這怎麼行！</p>
+<p>　　　龍大可以讓徹替他逼問維亞，可是，這種間接得來的答案讓他無法心服。</p>
+<p>　　　……</p>
+<p>　　　與三皇子殿下的焦躁相反，魔王陛下正在享受難得平靜的時光。他延遲了與多琳女王見面的邀請，卻去見了退位的水神族王亞瑟．法潔瑪。</p>
+<p>　　　退位之後，亞瑟住在由希的別莊，這對父子一週有兩天會見面，今天正好是他們父子見面的日子，見面的地點就挑在由希的別莊。</p>
+<p>　　　「亞瑟，好久不見。」</p>
+<p>　　　亞瑟現年也有四百多歲，已經不再年輕。</p>
+<p>　　　他比印象中多了些皺紋，身上那股學者的氣質卻猶如隨著時間更加醇厚的酒，越發濃厚。兩人見面時，徹才剛得了個「惡靈」的稱號，也不太懂得控制力量。逼人的氣勢令人避之唯恐不及，就連星澄也下意識繞著他走。</p>
+<p>　　　唯一一個相處起來舒服的，卻是當時還是水之都國王的亞瑟。</p>
+<p>　　　亞瑟本來是水之都的王子，原本繼承人是現在聖法提加的拉娜皇后。可惜一次見面時，拉娜與神王希尼斯相愛，繼承權就出乎意料地落在了他身上。所以，他身上沒有拉娜那種王者般的傲氣，反而彰顯了水之都神族那種負有教養的學者特質。跟他相處時，感覺特別平靜。</p>
+<p>　　　「上次來水之都，好像是由希殿下出生的時候？」</p>
+<p>　　　「看到你，就好像回到了年輕的時候。」亞瑟笑道。</p>
+<p>　　　初次見面時，他用的也是一口標準的魔族語，道別時不知出於禮儀或者真心，說了有緣能夠再會。</p>
+<p>　　　這次來訪水之都，徹透過非官方管道梢了簡單的訊息過來，卻沒想到亞瑟竟然為這個只有一面之緣的人空出時間。</p>
+<p>　　　「皇后陛下說，您是過來養傷，希望我能夠稍微看著您……介意我稍微多管閒事嗎？」雖然這話說得很委婉，徹還是看出了亞瑟的意思，就是叫他拖著病體不要玩得太過份。</p>
+<p>　　　徹笑道：「那我得謝謝星澄，也感謝你。」</p>
+<p>　　　「這句話請您直接告訴皇后陛下，她會很高興。」</p>
+<p>　　　「我會考慮。」</p>
+<p>　　　以徹的性格來說，這句話差不多就是拒絕，亞瑟也沒有強逼，「讓您多多休息。如果你願意的話，讓我看看身上的祈禱文吧？」</p>
+<p>　　　「……亞瑟，這可算是魔族的國家機密。」</p>
+<p>　　　「你可以相信我。」</p>
+<p>　　　對魔王徹．曼德沙來說，他所謂的的信賴與常人的定義有些不同。若一般人所謂的信任，是願意將自己的背後交給他，那麼徹的信賴可能更極端一點——那就是「即使被對方殺死也無妨」。</p>
+<p>　　　他跟亞瑟沒有合作關係，但是，他相信如果有一天必須與他刀刃相向，那想必是因為自己已經墮落到必須被誅殺的程度。若是如此，死了又何妨？</p>
+<p>　　　只是因為強大而佔據魔王的位置，背負著詛咒行屍走肉。</p>
+<p>　　　過去他隨時都可以去死，所以才選擇親自探問情報，想在戰場上尋求自己的末路，在鮮血中尋找救贖。</p>
+<p>　　　然而他確實找到了救贖，也在其中找到了地獄。</p>
+<p>　　　虛度數百年，終於找到了痛覺，有了「活著」的感覺。</p>
+<p>　　　徹嘆了氣：「……真是多管閒事。」</p>
+<p>　　　「謝謝。」</p>
+<p>　　　亞瑟一點也沒生氣，還是那樣笑笑的。</p>
+<p>　　　真是拿他沒辦法。</p>
+<p>　　　脫下上衣拿走了血鈴，以古令文交錯寫成的祈禱文逐漸浮現。在看不懂的人眼中，那就只是藤蔓或者樹枝的形象，實際上卻是特殊的古代魔法文。祈禱文最初是淡紅色，隨著時間逐漸清晰變成了黑色。藤蔓般的紋路沿著四肢往上，猶如纏繞身軀的藤蔓攀在徹的身上，可怖又帶了點魔性的美感。</p>
+<p>　　　亞瑟細緻地端詳，許久感嘆道：「以學者的角度來說，我很想把你身上的祈禱文記錄下來……但是，作為朋友，我應該再緊張一點才對。」</p>
+<p>　　　「請你暫時忘記你的學者身分。」</p>
+<p>　　　「……好吧。」亞瑟看起來頗為遺憾。</p>
+<p>　　　沉默了許久，由希突然道：「魔王陛下，能夠讓我看看嗎？」</p>
+<p>　　　徹答應之後很快就後悔了。</p>
+<p>　　　因為身後那對父子正把他的背當成了課本，研究起了古令文。雖然兩人語氣平緩，但仍可以從中感受到他們的熱情。</p>
+<p>　　　徹清了下喉嚨。「可以了嗎？」</p>
+<p>　　　他們這才發覺失態，尷尬地道歉。</p>
+<p>　　　由希道：「父親說的沒錯，這是一種遠古時代的祈禱文……或者說是獻祭的禱文。目前也只有精靈族地大圖書館有相關記載，如果沒有意外，滄雨的大圖書館應該也會有紀錄。」</p>
+<p>　　　徹一副洗耳恭聽的樣子。</p>
+<p>　　　「這是武聖皇的祈禱文，就是向神獻上壽命以及靈魂換取力量。這跟惡魔崇拜有點類似，但本質上……」</p>
+<p>　　　徹打斷他。「這我已經知道了，我想問的是，我還有多久時間？」</p>
+<p>　　　由希思考了一會兒。「這不一定，最長一百年，最少大約有四十年的時間。如果想要延遲祈禱文完成的時間，就必須減少受傷的機會，我想這你也知道，就不用再多說了。更詳細的資訊，可能要等武鬥祭的時候才會知道……」</p>
+<p>　　　徹穿上衣，很明顯在由希眼中看到了遺憾。他本來覺得這對父子一點都不像，卻沒想到在學術研究上發現了兩人共同的缺點。</p>
+<p>　　　雖然跟自己無關，但徹終於理解了這兩人都跟妻子分開的理由了。</p>
+<p>　　　就如同徹過去把國家當成自己的情人，這兩人的情人是書本。</p>
+<p>　　　亞瑟終於忘掉了學者身分，說了幾句人話：「我可以為你調製一些藥劑，可以減緩發作時的狀況。我會把處方給你，如果有需要可以服用。」</p>
+<p>　　　徹正想著可能用不到，亞瑟又補了一句：「等到祈禱文快要完成的時候，我希望能夠再見你一面。」</p>
+<p>　　　徹愣了一下，「恐怕不太適合。」</p>
+<p>　　　「怎麼不適合？」亞瑟態度難得有點強硬，「如果我到訪太讓人起疑，就讓由希代替我過去，可以嗎？」</p>
+<p>　　　徹沒有回答，表情有點複雜。</p>
+<p>　　　「為什麼？」</p>
+<p>　　　「你之所以讓我知道，是因為我跟你的未來無關。也就是說，你不會告訴星澄，甚至不會讓龍知道。離開之前，你很可能給自己製造了失蹤的假象。」亞瑟微微嘆息，「就算只是從別人那裡聽到謠言，我也會非常遺憾。為了讓我不要長久陷入鬱悶的情緒，還是讓我送你一程吧？」</p>
+<p>　　　徹的表情微微鬆動，眼眸微斂。</p>
+<p>　　　「到時候再說吧。或許，是我先參加你的葬禮也說不定？」</p>
+<p>　　　亞瑟笑了笑，「如果有那一天，我也會等你來見我。」</p>
+<p>　　　「真是沉重的約定。」</p>
+<p>　　　「是嗎？那麼，就換點不那麼沉重的，下回我就找個名目去拜訪你吧。比方說語言研究……也許可以看到星澄吃醋也說不定？」</p>
+<p>　　　「她會當真，別那樣欺負她。」</p>
+<p>　　　徹總覺得他看起來不像在開玩笑。能夠把這麼沉重的事情當成玩笑的一部分，也算是種才能。問題並未解決，但亞瑟的態度讓他心情好了不少。</p>
+<p>　　　亞瑟接著問：「你覺得怎麼樣？」</p>
+<p>　　　徹愣了一下，才意識到他是在問語言研究的事情。</p>
+<p>　　　原來那不是開玩笑嗎？</p>
+<p>　　　「你願意的話就太好了，這樣我們就往和平更進一步了。」</p>
+<p>　　　「等等，我什麼話都沒說！」</p>
+<p>　　　亞瑟一臉震驚：「你是想否定和平的未來嗎？」</p>
+<p>　　　認識了幾百年，徹這才發現，看似溫和無害的水王亞瑟還真是個無賴。他接著擅自挑好了日期——十年後徹的生日。這個約定就這樣糊里糊塗的定下來，以至於徹跟龍一起用餐時有些心不在焉。</p>
+<p>　　　因為有所隱瞞又心不在焉，被怒氣沖沖的龍在嘴唇上脖頸上咬了好幾口。看龍的樣子本來想要繼續，可他似乎想起了兩週的約定，逼自己忍了下去。看他欲求不滿又拼命忍耐的模樣，總有種兒子長大了的感覺。這父親般的表情進一步激怒了龍，被他半強迫的逼著練了幾局。</p>
+<p>　　　可惜徹在這樣的狀態下，仍玩敗了龍。他因自己的弱小跟徹的敷衍生了幾分鐘悶氣，很快就過來撒嬌。</p>
+<p>　　　「……徹，你不能光是打擊我，稍微指點我一下嘛。」</p>
+<p>　　　「我不太擅長教人武術，不過，倒是有個方法。」</p>
+<p>　　　龍立刻坐直了身體，雙眼閃閃發光。</p>
+<p>　　　「什麼方法？」</p>
+<p>　　　徹笑笑地去吻他的手背。「我們去約會吧。」</p>
+<p>　　　</p>
+<h2 id="＊-2"><a href="#＊-2" class="headerlink" title="＊"></a>＊</h2><p>　　　</p>
+<p>　　　徹說的約會果然跟傳統意義上的約會不同。這位魔族的闇皇陛下把娛樂跟目標完美地結合在一起——</p>
+<p>　　　他為龍請了長達一個月的假，接下了討伐精靈森林惡龍的委託。期間，他還完美地扮演著戀人與父親的角色，教會他在野外求生的法則與基本的藥草學。看見徹講解常見的藥草、生長的位置以及藥水的治療訣竅後，龍開始懷疑自己到底是來幹嘛的。</p>
+<p>　　　不過，意識到這點已經是旅程開始一周後。期間，他們確實有點約會的氣氛，但剩下的基本上都是野外求生跟藥草調製吧！</p>
+<p>　　　想到這點，龍把滿桌的藥草扔在徹的臉上。</p>
+<p>　　　「這才不是約會，你這騙子！」</p>
+<p>　　　徹一臉無辜地避開，去撈他的腰：「我是打算跟你約會，但是這取決於你什麼時候完成這次任務。」我的天還說的義正嚴詞。</p>
+<p>　　　龍愣住：「你不打算幫我？」</p>
+<p>　　　「為什麼我要幫你？這是你的課程。」</p>
+<p>　　　看他那副理所當然的神情，龍特別想掐死他。</p>
+<p>　　　「還是你想說，你沒有我就做不到？如果是這樣，要我出手可以。」</p>
+<p>　　　「不用了！」龍瞪他。這傢伙很愛用激將法，而且次次有效。</p>
+<p>　　　龍正咕噥著不該讓他稱心如意，背後徹正幫他把變長的頭髮紮起來，這回替龍綁了一個高馬尾，還滿意地點了點頭。「還有，今天是兩週約定的最後一天。」</p>
+<p>　　　「……你怎麼不早說！」龍一臉驚駭。</p>
+<p>　　　「這是你應該注意的事情，不是我。以我的立場來說，當然希望你乖乖聽我安排。給你時間，只是想看起來不那麼專制而已。」徹一臉遺憾，「我也說過，你不該太相信我。」</p>
+<p>　　　「你作弊！」</p>
+<p>　　　雖然聲音喊得大，但龍沒什麼底氣。相處以來，龍已經大概摸清楚他的性格，跟他撒嬌講理還可以，吵架倒是可以免了，基本上是浪費力氣。因為次次都輸，唯一的好處是雖然會被責備但偶爾徹還是會哄他。</p>
+<p>　　　「我沒有，是你太大意了。」</p>
+<p>　　　「我就是要相信你，那又怎麼樣？」</p>
+<p>　　　徹笑著親他的鼻尖：「看在馬尾很適合你的份上，給你延期三天吧。」</p>
+<p>　　　「三天不夠。」龍試著做出最無辜的表情。</p>
+<p>　　　「也是，那就兩天吧。」</p>
+<p>　　　龍迅速的放棄跟徹討價還價。</p>
+<p>　　　「三天吧？我知道了。」</p>
+<p>　　　相識至今，龍還是第一次知道，徹在教學上這麼斯巴達。龍在學習上很有天賦，徹也很少逼他學習，所以沒有機會認識他這一面。</p>
+<p>　　　惡魔。</p>
+<p>　　　「都是你害的，所以你要幫我惡補。」</p>
+<p>　　　「嗯？好啊。」</p>
+<p>　　　接著就是毫無人性的兩天多練習。</p>
+<p>　　　……</p>
+<p>　　　經過好幾天筋疲力盡的練習，龍的潛能在崩潰中鍛鍊出來，只可惜在最後一天還是沒能摸到徹的衣角，咬著下唇很是悔恨。</p>
+<p>　　　其實他有點想哭，又想生氣。對誰生氣呢？</p>
+<p>　　　對自己也對徹生氣好了，雖然他都會覺得這是無理取鬧就算了。</p>
+<p>　　　雖然腦袋裡清楚，可是表情卻怎麼也藏不住，龍扭頭不想看他。</p>
+<p>　　　「要是你現在跟我說，皇族不應該輕易流淚，我一定會揍你。」</p>
+<p>　　　徹盯著他看了好半晌，嘴唇動了動：「才不會說。」</p>
+<p>　　　「硄啷」一聲，劍落到地上。</p>
+<p>　　　柔軟的嘴唇壓了上來，稍微有一點粗暴。龍訝然的驚呼聲被按在了嘴唇裡，明亮的月色下，魔王陛下那雙紫色眼眸看起來妖異十分。</p>
+<p>　　　最令人愉快的是，他眼神以至於動作都帶上了點欲求不滿的味道。</p>
+<p>　　　太好了，不是只有我在忍耐。</p>
+<p>　　　龍在親吻的間隙中，帶著喘息說：「要是知道你這麼不能忍，我早就——」話被他的親吻吞了下去。</p>
+<p>　　　「暫時別說話，」徹稍微開口，介於少年與青年之間的聲音染上了帶情慾的瘖啞，「破壞氣氛。」</p>
+<p>　　　說什麼破壞氣氛，把約會搞成戶外教學的明明就是你好嗎？</p>
+<p>　　　龍試著用視線表達抗議，可在徹眼裡看起來就只是勾引而已。他去親吻龍身上新造成的擦傷，疼痛讓他微微震顫，發出細小的輕嚶。</p>
+<p>　　　「不要忍耐，我想聽你的聲音。」</p>
+<p>　　　「……真是惡趣味。」</p>
+<p>　　　抱怨被悉數化成疼痛帶著愉悅的呢喃​。</p>
+<p>　　　維持很久的教導者形象終於被壓了過去，徹摟過他的動作感覺出少有的急促，月光下那副冷靜到討厭的笑臉終於被染上屬於深夜的顏色。</p>
+<p>　　　真好看。龍在他耳邊輕聲說。</p>
+<p>　　　徹笑了下，「你也是。」</p>
+<p>　　　明明是自己開的頭，龍卻紅到了耳根。</p>
+<p>　　　「……說什麼我很熟練，明明就是——唔！你為什麼每次都不讓我說完話！」</p>
+<p>　　　徹學他剛才的動作，湊在他耳邊說：少說點話吧。</p>
+<p>　　　龍從善如流，笑著去回應他的進攻。「對我溫柔一點哦。」</p>
+<p>　　　徹微笑，他笑起來好看極了。「不要。」</p>
+<p>　　　都不知道該生氣還是開心了。</p>
+<p>　　　……</p>
+<p>　　　很久沒有點像情人的互動，龍本來還覺得開心，但這開心沒有維持多久，因為不只有他在忍耐而已。</p>
+<p>　　　直到聲音嘶啞身體要被穿透為止，才終於能夠休息。讓他做完之後就直接睡過去，還是被他的吻喚醒的。</p>
+<p>　　　睜開眼睛已經是下午，因為睡太久腦袋特別模糊，他去蹭徹的肩膀。</p>
+<p>　　　「醒了嗎？」</p>
+<p>　　　「……沒醒，覺得累。」</p>
+<p>　　　「那就再休息一下吧。」</p>
+<p>　　　真正醒來又過了半小時，兩人身上或多或少都有些吻痕，特別龍還在頸子後發現了吻痕。</p>
+<p>　　　這位置很狡猾，本人也不大容易發現，是做給其他床伴看的。</p>
+<p>　　　龍彎彎嘴角，他喜歡徹這種佔有慾。這確實是約會，可以這樣下去感覺很不錯。</p>
+<p>　　　只不過，在他對徹提升愛意的同時又會恨不得打死他。因為，徹已經連續三次眼睜睜看著他挑錯了草藥，不是因此拉肚子就是被藥草麻痺！</p>
+<p>　　　問他為什麼不阻止，徹卻說：「拉肚子不會死人。」</p>
+<p>　　　「我可以揍你嗎？」</p>
+<p>　　　「可以，但是我有躲的權力。」</p>
+<p>　　　龍揮動的拳頭軟綿綿的停下來了，他決定換一招：「我肚子很痛，幫幫我。」</p>
+<p>　　　徹想了想，給他指點了有相應用處的草藥。</p>
+<p>　　　結果，龍還是找錯了草藥，差點被自己信心滿滿挑到的草藥害得把胃裡的東西清空。龍這瞬間覺得想要打他，順便在他身上增加一點烙印，比方吻痕或著小傷口。最慘的是，半昏半醒間被徹哄著睡覺的時候，龍又覺得可以原諒他。本來在水之都就學是想要治病，可惜現在卻變得病入膏肓。</p>
+<p>　　　討厭鬼。龍輕聲呢喃。</p>
+<p>　　　「……我聽說水之都的人叫你魔族之花。你是刻意不去阻止嗎？」</p>
+<p>　　　龍哼了哼，「差不多吧，被小看總比被高估安全多了。」</p>
+<p>　　　雖然他學習挺認真，作業也會按時完成，卻未必會交出去。經過幾個月，費心經營形象多少有點用處，至少一開始對他畢恭畢敬的那群人現在都知道調戲他了。</p>
+<p>　　　龍心情好的時候會跟他們一起玩，不高興就把他們打飛，過得也算舒心。</p>
+<p>　　　「是個聰明的選擇，但是，可能有些不良影響。」</p>
+<p>　　　「比如說什麼？」</p>
+<p>　　　徹沉默了一會兒。「更容易吸引到因為美貌而來的人。」</p>
+<p>　　　「有什麼關係？我有你就夠了。」</p>
+<p>　　　龍強硬的截斷了話題，顯然不想多談。徹看他表情也沒有堅持，「如果你想親自跟維亞．曼特爾交涉，我不會阻止你。但是，務必記得安全，我不希望你受傷。好嗎？」</p>
+<p>　　　龍本來想為維亞說幾句好話，到了口邊又吞回去。</p>
+<p>　　　「徹，我一直在長大，但你一直沒改變。有一天，我會變得比你還高。」</p>
+<p>　　　「確實如此，我很期待。」</p>
+<p>　　　龍伸手去攏他散開的頭髮，徹帶著困惑看他，鈴鐺這回被龍繫在徹的手腕，動起來就叮噹叮噹的。「到時候，哪怕只有一次……讓我保護你，好嗎？」</p>
+<p>　　　徹笑道：「如果到時候你還想那麼做的話，我很樂意。」</p>
+<p>　　　生氣沒有意義，難過也浪費時間。</p>
+<p>　　　龍決定好好把握現在。</p>
+<p>　　　……</p>
+<p>　　　野外生存、狩獵、料理，如果不是偶爾的休息時間，龍都快懷疑自己是來了野外求生課程。起初他也很不適應，最後漸漸能夠享受這樣的氣氛，還可以聽聽徹講起旅行的見聞。</p>
+<p>　　　仔細回想起來，這幾乎是他生來最放鬆的時候。</p>
+<p>　　　在皇宮裡，即使有徹護著他，他仍時不時感受到眾人的視線。不論嫉妒、懷疑甚至渴求都是，人們凝視他、評價他、取笑他，無時不刻期待他出錯。於是龍開始往反方向走。他有意塑造自己淺薄的形象，人們對他的瞭解僅止於外表，知道他愛美飲酒，喜歡被稱讚——以及魔王陛下的情人。</p>
+<p>　　　期待沒有了，徹還是留在身邊，龍終於感覺鬆了口氣。</p>
+<p>　　　「水之都的課程結束後，你可以決定要在哪裡生活。如果你喜歡水之都，我也跟亞瑟打過招呼了。」</p>
+<p>　　　龍凝視著他。「我是喜歡水之都，但我更喜歡你。你知道的。」</p>
+<p>　　　「我不是想趕走你，我只是……」</p>
+<p>　　　「你以為我不知道有這些選擇嗎？很抱歉，我清楚得很。但如果你還是不放心的話，我會按你的希望去嘗試，但我最終還是會到你身邊。所以——」龍窩在他的胸口，「拜託你，不要趕我走。」</p>
+<p>　　　徹嘆息。「你要給自己找退路，否則撐不下去的。」</p>
+<p>　　　「你是我的父親，但我不需要你指點我怎麼談戀愛！你自己又懂什麼？」</p>
+<p>　　　這話無疑戳穿了徹的痛腳，他抿著嘴不說話了。</p>
+<p>　　　「……你不高興，那我就不說了。」</p>
+<p>　　　「不可以去找星澄大人，你是我的。」看徹有點困擾，他改口道：「至少不要讓我看到。」</p>
+<p>　　　「我知道了。」</p>
+<p>　　　「不可以跟我以外的人說『我愛你』。」</p>
+<p>　　　「除了你之外，我沒有跟其他人說過。」</p>
+<p>　　　「嗯。」</p>
+<p>　　　到此為止還十分可愛的佔有欲，下一秒卻變了。龍看著徹的神情非常認真：「是你把我變成這樣的。就算你死掉了，我也不會放你走。如果有來生，我想再遇見你，但我要當你的戀人。」</p>
+<p>　　　徹定定地看著他，勾了勾嘴角。「好啊。我們一起下地獄。」</p>
+<p>　　　龍說著「我討厭你」，沒多久又改成「我愛你」。</p>
+<p>　　　「討厭也沒關係。」徹說，「留在我身邊吧？」</p>
+<p>　　　他走不開，也留不下來，就這樣糾纏拉扯彼此掉到深淵。</p>
+<p>　　　龍應該痛恨將他逼到此處的父親，奇怪的是，即便遇見了即將墜落的瞬間，在彼此相擁的此刻，卻感到幸福。</p>
+<p>　　</p>
+
+
+<div class="article-footer reveal fs14"><section id="license"><div class="header"><span>授權條款</span></div><div class="body"><p>本文採用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh_TW">姓名標示-非商業性-相同方式分享4.0 國際</a> 許可協議，轉載請註明出處。</p>
+</div></section><section id="share"><div class="header"><span>分享文章</span></div><div class="body"><div class="link"><input class="copy-area" readonly="true" id="copy-link" value="https://hsiulung.github.io/2019/08/18/sin06/" /></div><div class="social-wrap dis-select"><a class="social share-item wechat" onclick="util.toggle(&quot;qrcode-wechat&quot)"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/social/b32ef3da1162a.svg"/></a><a class="social share-item email" href="mailto:?subject=五、約定 PROMISE - 琉的大圖書館&amp;body=https://hsiulung.github.io/2019/08/18/sin06/"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/social/a1b00e20f425d.svg"/></a><a class="social share-item link" onclick="util.copy(&quot;copy-link&quot;, &quot;複製成功&quot;)"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/social/8411ed322ced6.svg"/></a></div><div class="qrcode" id="qrcode-wechat" style="visibility:hidden;height:0"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://api.qrserver.com/v1/create-qr-code/?size=256x256&data=https://hsiulung.github.io/2019/08/18/sin06/index.html"/></div></div></section></div>
+
+</article>
+<div>
+    <script type="text/javascript">
+      document.write(
+        "<iframe scrolling='no' frameborder='0' style='height: 212px; width: 100%;' " + 
+        "sandbox='allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-storage-access-by-user-activation' " + 
+        "src='https://button.like.co/in/embed/hsiulung/button?referrer=" +
+        encodeURIComponent(location.href.split("?")[0].split("#")[0]) + "'></iframe>");
+    </script>
+</div>
+
+<div class="related-wrap reveal" id="read-next"><section class="header cap theme"><span>接下來閱讀</span></section><section class="body fs14"><a id="next" href="/2019/08/18/sin05/">四、出逃 ESCAPE<span class="note">較早</span></a><div class="line"></div><a id="prev" href="/2019/08/18/sin07/">六、地獄 UNDER HELL<span class="note">較新</span></a></section></div>
+
+
+
+
+
+
+
+
+	  
+  <div id="disqus_thread"></div>
+  <script>
+      /**
+      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+      var disqus_config = function () {
+        this.page.url = 'https://hsiulung.github.io/2019/08/18/sin06/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = '1566119160000'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://github-blog.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+      
+<footer class="page-footer reveal fs12"><hr><div class="sitemap"><div class="sitemap-group"><span class="fs14">藍月傳說</span><a href="/tags/%E8%97%8D%E6%9C%8801/">01-塔內的王子</a><a href="/tags/%E8%97%8D%E6%9C%8802/">02-水下都市</a><a href="/tags/%E8%97%8D%E6%9C%8803/">03-不滅的龍</a><a href="/tags/%E8%97%8D%E6%9C%8804/">04-往昔的榮光</a><a href="/tags/%E8%97%8D%E6%9C%8805/">05-滄雨的魔王</a><a href="/tags/%E8%97%8D%E6%9C%8806/">06-混沌之子</a></div><div class="sitemap-group"><span class="fs14">藍月外傳</span><a href="/tags/%E8%97%8D%E6%9C%88%E5%A4%96%E5%82%B301/">01-風之華</a><a href="/tags/%E8%97%8D%E6%9C%88%E5%A4%96%E5%82%B302/">02-罪詠/罪衍</a><a href="/tags/%E8%97%8D%E6%9C%88%E5%A4%96%E5%82%B303/">03-女武神的黑玫瑰</a><a href="/tags/%E8%97%8D%E6%9C%88%E5%A4%96%E5%82%B304/">04-常悠的國王陛下</a><a href="/tags/%E8%97%8D%E6%9C%88%E5%A4%96%E5%82%B305/">05-滄雨的魔王陛下</a><a href="/tags/%E8%97%8D%E6%9C%88%E5%A4%96%E5%82%B306/">06-無名龍王</a></div><div class="sitemap-group"><span class="fs14">安息者</span><a href="/tags/%E5%AE%89%E6%81%AF%E8%80%8501/">01-人偶王子與夏之公主</a><a href="/tags/%E5%AE%89%E6%81%AF%E8%80%8502/">02-獻給您的鎮魂歌</a><a href="/tags/%E5%AE%89%E6%81%AF%E8%80%8503/">03-只為你盛開的人造花</a><a href="/tags/%E5%AE%89%E6%81%AF%E8%80%8504/">04-其名為神之劍</a><a href="/tags/%E5%AE%89%E6%81%AF%E8%80%8505/">05-最後的聖者</a><a href="/tags/%E5%AE%89%E6%81%AF%E8%80%8506/">06-聖者的漫步</a></div><div class="sitemap-group"><span class="fs14">冒險者</span><a href="/tags/%E5%86%92%E9%9A%AA%E8%80%8501/">01-遺失的精靈</a><a href="/tags/%E5%86%92%E9%9A%AA%E8%80%8502/">02-親愛的瑟爾芬陛下</a><a href="/tags/%E5%86%92%E9%9A%AA%E8%80%8503/">03-親愛的魔女小姐</a><a href="/tags/%E5%86%92%E9%9A%AA%E8%80%8504/">04-風之精靈女王</a></div><div class="sitemap-group"><span class="fs14">設定</span><a href="/wiki/moon-saga/index.html">藍月傳說</a><a href="/wiki/marionette/index.html">安息者</a></div></div><div class="text"><p>本網誌所有文章除特別聲明外，均採用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 授權條款。轉載請註明出處。</p>
+<p>本站由 <a href="https://hsiulung.github.io/">@森千琉</a> 建立，使用 <a target="_blank" rel="noopener" href="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.6.1" title="v1.6.1">Stellar</a> 作為主題。您可以在 <a target="_blank" rel="noopener" href="https://github.com/xaoxuu/hexo-theme-stellar">GitHub</a> 找到本站原始碼。</p>
+</div></footer>
+
+      <div class='float-panel mobile-only blur' style='display:none'>
+  <button type='button' class='sidebar-toggle mobile' onclick='sidebar.toggle()'>
+    <svg class="icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="15301"><path d="M566.407 808.3c26.9-0.1 49.3-20.8 51.6-47.6-1.9-27.7-23.9-49.7-51.6-51.6h-412.6c-28.2-1.4-52.6 19.5-55.5 47.6 2.3 26.8 24.6 47.5 51.6 47.6h416.5v4z m309.3-249.9c26.9-0.1 49.3-20.8 51.6-47.6-2.2-26.8-24.6-47.5-51.6-47.6h-721.9c-27.7-2.8-52.5 17.4-55.3 45.1-0.1 0.8-0.1 1.7-0.2 2.5 0.9 27.2 23.6 48.5 50.7 47.6H875.707z m-103.1-245.9c26.9-0.1 49.3-20.8 51.6-47.6-0.4-28.3-23.2-51.1-51.5-51.6h-618.9c-29.5-1.1-54.3 21.9-55.5 51.4v0.2c1.4 27.8 25.2 49.2 53 47.8 0.8 0 1.7-0.1 2.5-0.2h618.8z" p-id="15302"></path><path d="M566.407 808.3c26.9-0.1 49.3-20.8 51.6-47.6-1.9-27.7-23.9-49.7-51.6-51.6h-412.6c-28.2-1.4-52.6 19.5-55.5 47.6 1.9 27.7 23.9 49.7 51.6 51.6h416.5z m309.3-249.9c26.9-0.1 49.3-20.8 51.6-47.6-2.2-26.8-24.6-47.5-51.6-47.6h-721.9c-27.7-2.8-52.5 17.4-55.3 45.1-0.1 0.8-0.1 1.7-0.2 2.5 0.9 27.2 23.6 48.5 50.7 47.6H875.707z m-103.1-245.9c26.9-0.1 49.3-20.8 51.6-47.6-0.4-28.3-23.2-51.1-51.5-51.6h-618.9c-29.5-1.1-54.3 21.9-55.5 51.4v0.2c1.4 27.8 25.2 49.2 53 47.8 0.8 0 1.7-0.1 2.5-0.2h618.8z" p-id="15303"></path></svg>
+  </button>
+</div>
+
+    </div>
+  </div>
+  <div class='scripts'>
+    <script type="text/javascript">
+  stellar = {
+    // 懒加载 css https://github.com/filamentgroup/loadCSS
+    loadCSS: (href, before, media, attributes) => {
+      var doc = window.document;
+      var ss = doc.createElement("link");
+      var ref;
+      if (before) {
+        ref = before;
+      } else {
+        var refs = (doc.body || doc.getElementsByTagName("head")[0]).childNodes;
+        ref = refs[refs.length - 1];
+      }
+      var sheets = doc.styleSheets;
+      if (attributes) {
+        for (var attributeName in attributes) {
+          if (attributes.hasOwnProperty(attributeName)) {
+            ss.setAttribute(attributeName, attributes[attributeName]);
+          }
+        }
+      }
+      ss.rel = "stylesheet";
+      ss.href = href;
+      ss.media = "only x";
+      function ready(cb) {
+        if (doc.body) {
+          return cb();
+        }
+        setTimeout(function () {
+          ready(cb);
+        });
+      }
+      ready(function () {
+        ref.parentNode.insertBefore(ss, before ? ref : ref.nextSibling);
+      });
+      var onloadcssdefined = function (cb) {
+        var resolvedHref = ss.href;
+        var i = sheets.length;
+        while (i--) {
+          if (sheets[i].href === resolvedHref) {
+            return cb();
+          }
+        }
+        setTimeout(function () {
+          onloadcssdefined(cb);
+        });
+      };
+      function loadCB() {
+        if (ss.addEventListener) {
+          ss.removeEventListener("load", loadCB);
+        }
+        ss.media = media || "all";
+      }
+      if (ss.addEventListener) {
+        ss.addEventListener("load", loadCB);
+      }
+      ss.onloadcssdefined = onloadcssdefined;
+      onloadcssdefined(loadCB);
+      return ss;
+    },
+
+    // 从 butterfly 和 volantis 获得灵感
+    loadScript: (src, opt) => new Promise((resolve, reject) => {
+      var script = document.createElement('script');
+      script.src = src;
+      if (opt) {
+        for (let key of Object.keys(opt)) {
+          script[key] = opt[key]
+        }
+      } else {
+        // 默认异步，如果需要同步，第二个参数传入 {} 即可
+        script.async = true
+      }
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    }),
+
+    // https://github.com/jerryc127/hexo-theme-butterfly
+    jQuery: (fn) => {
+      if (typeof jQuery === 'undefined') {
+        stellar.loadScript(stellar.plugins.jQuery).then(fn)
+      } else {
+        fn()
+      }
+    }
+  };
+  stellar.github = 'https://github.com/xaoxuu/hexo-theme-stellar/tree/1.6.1';
+  stellar.config = {
+    date_suffix: {
+      just: '剛剛',
+      min: '分鐘前',
+      hour: '小時前',
+      day: '天前',
+      month: '個月前',
+    },
+  };
+
+  // required plugins (only load if needs)
+  stellar.plugins = {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js',
+    sitesjs: '/js/plugins/sites.js',
+    friendsjs: '/js/plugins/friends.js',
+  };
+
+  // optional plugins
+  if ('true' == 'true') {
+    stellar.plugins.lazyload = Object.assign({"enable":true,"js":"https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.3.1/dist/lazyload.min.js","transition":"blur"});
+  }
+  if ('true' == 'true') {
+    stellar.plugins.swiper = Object.assign({"enable":true,"css":"https://unpkg.com/swiper@6/swiper-bundle.min.css","js":"https://unpkg.com/swiper@6/swiper-bundle.min.js"});
+  }
+  if ('' == 'true') {
+    stellar.plugins.scrollreveal = Object.assign({"enable":null,"js":"https://cdn.jsdelivr.net/npm/scrollreveal@4.0.9/dist/scrollreveal.min.js","distance":"8px","duration":500,"interval":100,"scale":1});
+  }
+  if ('true' == 'true') {
+    stellar.plugins.preload = Object.assign({"enable":true,"service":"flying_pages","instant_page":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@4.1.2/js/instant_page.js","flying_pages":"https://cdn.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js"});
+  }
+</script>
+
+<!-- required -->
+
+  
+<script src="/js/main.js" async></script>
+
+
+
+<!-- optional -->
+
+
+
+<!-- inject -->
+
+
+  </div>
+  
+</body>
+</html>
