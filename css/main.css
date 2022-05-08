@@ -1,14 +1,20 @@
+@font-face {
+  font-family: 'Noto Serif TC', serif;
+  src: url("https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600&display=swap");
+  font-weight: normal;
+  font-style: normal;
+}
 :root {
   --width-left: 256px;
-  --width-main: 680px;
+  --width-main: 800px;
   --gap-l: 16px;
   --gap-p: 1.25rem;
 }
 @media screen and (min-width: 2048px) {
   :root {
     --gap-l: 32px;
-    --width-left: 320px;
-    --width-main: 740px;
+    --width-left: 350px;
+    --width-main: 860px;
   }
 }
 @media screen and (min-width: 2560px) {
@@ -574,7 +580,7 @@ pre .coffeescript .title {
   outline: none;
 }
 html {
-  font-family: system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif;
+  font-family: 'Noto Serif TC', serif, system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif;
   font-size: 16px;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -2758,7 +2764,7 @@ details.toc[open] >div.body section .header+.doc_tree {
   font-weight: 900;
   color: inherit;
   line-height: 1.2;
-  font-family: system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif;
+  font-family: 'Noto Serif TC', serif, system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif;
   display: block;
   position: relative;
 }
