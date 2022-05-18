@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>https://hsiulung.github.io/2022/05/13/ms038/</loc>
+    
+    <lastmod>2022-05-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hsiulung.github.io/2022/05/16/ms039/</loc>
     
     <lastmod>2022-05-18</lastmod>
@@ -30,15 +39,6 @@
   
   <url>
     <loc>https://hsiulung.github.io/2022/05/12/ms037/</loc>
-    
-    <lastmod>2022-05-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hsiulung.github.io/2022/05/13/ms038/</loc>
     
     <lastmod>2022-05-13</lastmod>
     
@@ -2293,6 +2293,13 @@
   
   <url>
     <loc>https://hsiulung.github.io/categories/msa/msa01/</loc>
+    <lastmod>2022-05-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hsiulung.github.io/categories/ms/01-%E9%BB%91%E6%A3%AE%E6%9E%97%E7%9A%84%E6%AD%BB%E7%A5%9E/</loc>
     <lastmod>2022-05-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
