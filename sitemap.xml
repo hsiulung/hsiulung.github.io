@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://hsiulung.github.io/2023/02/03/ms056/</loc>
+    
+    <lastmod>2023-02-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hsiulung.github.io/2023/01/22/msa05-1/</loc>
     
     <lastmod>2023-01-26</lastmod>
@@ -209,7 +218,7 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/2022/05/06/ms002/</loc>
+    <loc>https://hsiulung.github.io/2022/05/06/ms001/</loc>
     
     <lastmod>2022-06-09</lastmod>
     
@@ -218,7 +227,7 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/2022/05/06/ms001/</loc>
+    <loc>https://hsiulung.github.io/2022/05/06/ms002/</loc>
     
     <lastmod>2022-06-09</lastmod>
     
@@ -245,15 +254,6 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/2022/05/06/ms007/</loc>
-    
-    <lastmod>2022-06-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://hsiulung.github.io/2022/05/06/ms005/</loc>
     
     <lastmod>2022-06-09</lastmod>
@@ -272,7 +272,7 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/2022/05/06/ms009/</loc>
+    <loc>https://hsiulung.github.io/2022/05/06/ms007/</loc>
     
     <lastmod>2022-06-09</lastmod>
     
@@ -299,6 +299,15 @@
   </url>
   
   <url>
+    <loc>https://hsiulung.github.io/2022/05/06/ms009/</loc>
+    
+    <lastmod>2022-06-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hsiulung.github.io/2022/05/06/ms010/</loc>
     
     <lastmod>2022-06-09</lastmod>
@@ -308,7 +317,7 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/2022/05/06/ms012/</loc>
+    <loc>https://hsiulung.github.io/2022/05/06/ms013/</loc>
     
     <lastmod>2022-06-09</lastmod>
     
@@ -317,7 +326,7 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/2022/05/06/ms013/</loc>
+    <loc>https://hsiulung.github.io/2022/05/06/ms012/</loc>
     
     <lastmod>2022-06-09</lastmod>
     
@@ -353,15 +362,6 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/2020/05/10/marionette05/</loc>
-    
-    <lastmod>2022-06-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://hsiulung.github.io/2020/05/10/marionette04/</loc>
     
     <lastmod>2022-06-09</lastmod>
@@ -380,7 +380,7 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/2020/05/10/marionette08/</loc>
+    <loc>https://hsiulung.github.io/2020/05/10/marionette05/</loc>
     
     <lastmod>2022-06-09</lastmod>
     
@@ -398,7 +398,7 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/2020/05/10/marionette11/</loc>
+    <loc>https://hsiulung.github.io/2020/05/10/marionette09/</loc>
     
     <lastmod>2022-06-09</lastmod>
     
@@ -407,7 +407,16 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/2020/05/10/marionette09/</loc>
+    <loc>https://hsiulung.github.io/2020/05/10/marionette08/</loc>
+    
+    <lastmod>2022-06-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hsiulung.github.io/2020/05/10/marionette11/</loc>
     
     <lastmod>2022-06-09</lastmod>
     
@@ -443,7 +452,7 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/2020/05/10/marionette16/</loc>
+    <loc>https://hsiulung.github.io/2020/05/10/marionette14/</loc>
     
     <lastmod>2022-06-09</lastmod>
     
@@ -452,7 +461,7 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/2020/05/10/marionette14/</loc>
+    <loc>https://hsiulung.github.io/2020/05/10/marionette16/</loc>
     
     <lastmod>2022-06-09</lastmod>
     
@@ -470,25 +479,7 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/2020/05/10/marionette18/</loc>
-    
-    <lastmod>2022-06-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://hsiulung.github.io/2020/05/10/marionette17/</loc>
-    
-    <lastmod>2022-06-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hsiulung.github.io/2020/05/10/marionette20/</loc>
     
     <lastmod>2022-06-09</lastmod>
     
@@ -506,6 +497,15 @@
   </url>
   
   <url>
+    <loc>https://hsiulung.github.io/2020/05/10/marionette18/</loc>
+    
+    <lastmod>2022-06-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hsiulung.github.io/2020/05/10/marionette21/</loc>
     
     <lastmod>2022-06-09</lastmod>
@@ -515,16 +515,7 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/2020/05/11/marionette32/</loc>
-    
-    <lastmod>2022-06-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hsiulung.github.io/2020/05/10/marionette22/</loc>
+    <loc>https://hsiulung.github.io/2020/05/10/marionette20/</loc>
     
     <lastmod>2022-06-09</lastmod>
     
@@ -542,7 +533,7 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/2020/05/11/marionette34/</loc>
+    <loc>https://hsiulung.github.io/2020/05/10/marionette22/</loc>
     
     <lastmod>2022-06-09</lastmod>
     
@@ -560,7 +551,7 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/2020/05/11/marionette37/</loc>
+    <loc>https://hsiulung.github.io/2020/05/11/marionette32/</loc>
     
     <lastmod>2022-06-09</lastmod>
     
@@ -578,7 +569,43 @@
   </url>
   
   <url>
+    <loc>https://hsiulung.github.io/2020/05/11/marionette34/</loc>
+    
+    <lastmod>2022-06-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hsiulung.github.io/2020/05/11/marionette37/</loc>
+    
+    <lastmod>2022-06-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hsiulung.github.io/2020/05/11/marionette36/</loc>
+    
+    <lastmod>2022-06-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hsiulung.github.io/2020/05/11/marionette40/</loc>
+    
+    <lastmod>2022-06-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hsiulung.github.io/2020/05/11/marionette38/</loc>
     
     <lastmod>2022-06-09</lastmod>
     
@@ -605,34 +632,7 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/2020/05/11/marionette38/</loc>
-    
-    <lastmod>2022-06-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hsiulung.github.io/2020/05/11/marionette40/</loc>
-    
-    <lastmod>2022-06-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://hsiulung.github.io/2020/05/11/marionette41/</loc>
-    
-    <lastmod>2022-06-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hsiulung.github.io/2020/05/11/marionette44/</loc>
     
     <lastmod>2022-06-09</lastmod>
     
@@ -659,7 +659,7 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/2020/05/11/marionette47/</loc>
+    <loc>https://hsiulung.github.io/2020/05/11/marionette44/</loc>
     
     <lastmod>2022-06-09</lastmod>
     
@@ -686,7 +686,7 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/2020/05/11/marionette50/</loc>
+    <loc>https://hsiulung.github.io/2020/05/11/marionette47/</loc>
     
     <lastmod>2022-06-09</lastmod>
     
@@ -713,7 +713,7 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/2020/05/11/marionette53/</loc>
+    <loc>https://hsiulung.github.io/2020/05/11/marionette50/</loc>
     
     <lastmod>2022-06-09</lastmod>
     
@@ -731,15 +731,6 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/2020/05/11/marionette56/</loc>
-    
-    <lastmod>2022-06-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://hsiulung.github.io/2020/05/11/marionette54/</loc>
     
     <lastmod>2022-06-09</lastmod>
@@ -749,7 +740,34 @@
   </url>
   
   <url>
+    <loc>https://hsiulung.github.io/2020/05/11/marionette53/</loc>
+    
+    <lastmod>2022-06-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hsiulung.github.io/2020/05/11/marionette56/</loc>
+    
+    <lastmod>2022-06-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hsiulung.github.io/2020/05/11/marionette55/</loc>
+    
+    <lastmod>2022-06-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hsiulung.github.io/2020/05/11/marionette59/</loc>
     
     <lastmod>2022-06-09</lastmod>
     
@@ -768,15 +786,6 @@
   
   <url>
     <loc>https://hsiulung.github.io/2020/05/11/marionette57/</loc>
-    
-    <lastmod>2022-06-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hsiulung.github.io/2020/05/11/marionette59/</loc>
     
     <lastmod>2022-06-09</lastmod>
     
@@ -848,6 +857,15 @@
   </url>
   
   <url>
+    <loc>https://hsiulung.github.io/2022/05/06/ms032/</loc>
+    
+    <lastmod>2022-06-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hsiulung.github.io/2022/05/06/ms033/</loc>
     
     <lastmod>2022-06-09</lastmod>
@@ -866,7 +884,7 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/2022/05/06/ms032/</loc>
+    <loc>https://hsiulung.github.io/2022/05/06/ms035/</loc>
     
     <lastmod>2022-06-09</lastmod>
     
@@ -893,7 +911,7 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/2022/05/06/ms035/</loc>
+    <loc>https://hsiulung.github.io/2022/05/06/ms019/</loc>
     
     <lastmod>2022-06-09</lastmod>
     
@@ -911,6 +929,15 @@
   </url>
   
   <url>
+    <loc>https://hsiulung.github.io/2022/05/06/ms021/</loc>
+    
+    <lastmod>2022-06-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hsiulung.github.io/2022/05/06/ms020/</loc>
     
     <lastmod>2022-06-09</lastmod>
@@ -920,16 +947,7 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/2022/05/06/ms019/</loc>
-    
-    <lastmod>2022-06-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hsiulung.github.io/2022/05/06/ms021/</loc>
+    <loc>https://hsiulung.github.io/2022/05/06/ms024/</loc>
     
     <lastmod>2022-06-09</lastmod>
     
@@ -956,15 +974,6 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/2022/05/06/ms027/</loc>
-    
-    <lastmod>2022-06-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://hsiulung.github.io/2022/05/06/ms025/</loc>
     
     <lastmod>2022-06-09</lastmod>
@@ -974,7 +983,7 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/2022/05/06/ms024/</loc>
+    <loc>https://hsiulung.github.io/2022/05/06/ms026/</loc>
     
     <lastmod>2022-06-09</lastmod>
     
@@ -983,7 +992,16 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/2022/05/06/ms026/</loc>
+    <loc>https://hsiulung.github.io/2022/05/06/ms027/</loc>
+    
+    <lastmod>2022-06-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hsiulung.github.io/2022/05/19/ms041/</loc>
     
     <lastmod>2022-06-09</lastmod>
     
@@ -1010,7 +1028,7 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/2022/05/19/ms041/</loc>
+    <loc>https://hsiulung.github.io/2022/05/27/ms045/</loc>
     
     <lastmod>2022-06-09</lastmod>
     
@@ -1028,7 +1046,7 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/2022/05/27/ms045/</loc>
+    <loc>https://hsiulung.github.io/2022/05/31/ms047/</loc>
     
     <lastmod>2022-06-09</lastmod>
     
@@ -1056,15 +1074,6 @@
   
   <url>
     <loc>https://hsiulung.github.io/2022/06/05/ms048/</loc>
-    
-    <lastmod>2022-06-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hsiulung.github.io/2022/05/31/ms047/</loc>
     
     <lastmod>2022-06-09</lastmod>
     
@@ -1685,6 +1694,15 @@
   </url>
   
   <url>
+    <loc>https://hsiulung.github.io/2012/09/20/puresnow08/</loc>
+    
+    <lastmod>2022-05-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hsiulung.github.io/2012/09/20/puresnow06/</loc>
     
     <lastmod>2022-05-07</lastmod>
@@ -1712,16 +1730,7 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/2012/09/20/puresnow08/</loc>
-    
-    <lastmod>2022-05-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hsiulung.github.io/2012/09/20/puresnow12/</loc>
+    <loc>https://hsiulung.github.io/2012/09/20/puresnow11/</loc>
     
     <lastmod>2022-05-07</lastmod>
     
@@ -1739,7 +1748,7 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/2012/09/20/puresnow13/</loc>
+    <loc>https://hsiulung.github.io/2012/09/20/puresnow12/</loc>
     
     <lastmod>2022-05-07</lastmod>
     
@@ -1748,7 +1757,7 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/2012/09/20/puresnow11/</loc>
+    <loc>https://hsiulung.github.io/2012/09/20/puresnow13/</loc>
     
     <lastmod>2022-05-07</lastmod>
     
@@ -1838,15 +1847,6 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/2019/09/02/rose19/</loc>
-    
-    <lastmod>2022-05-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://hsiulung.github.io/2019/09/02/rose18/</loc>
     
     <lastmod>2022-05-07</lastmod>
@@ -1865,7 +1865,7 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/2019/09/02/rose22/</loc>
+    <loc>https://hsiulung.github.io/2019/09/02/rose19/</loc>
     
     <lastmod>2022-05-07</lastmod>
     
@@ -1883,25 +1883,16 @@
   </url>
   
   <url>
+    <loc>https://hsiulung.github.io/2019/09/02/rose22/</loc>
+    
+    <lastmod>2022-05-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hsiulung.github.io/2019/09/02/rose25/</loc>
-    
-    <lastmod>2022-05-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hsiulung.github.io/2019/09/02/rose26/</loc>
-    
-    <lastmod>2022-05-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hsiulung.github.io/2019/09/02/rose23/</loc>
     
     <lastmod>2022-05-07</lastmod>
     
@@ -1919,7 +1910,25 @@
   </url>
   
   <url>
+    <loc>https://hsiulung.github.io/2019/09/02/rose23/</loc>
+    
+    <lastmod>2022-05-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hsiulung.github.io/2019/09/02/rose27/</loc>
+    
+    <lastmod>2022-05-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hsiulung.github.io/2019/09/02/rose26/</loc>
     
     <lastmod>2022-05-07</lastmod>
     
@@ -1937,7 +1946,7 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/2019/09/02/rose29/</loc>
+    <loc>https://hsiulung.github.io/2019/09/02/rose30/</loc>
     
     <lastmod>2022-05-07</lastmod>
     
@@ -1946,7 +1955,7 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/2019/09/02/rose30/</loc>
+    <loc>https://hsiulung.github.io/2019/09/02/rose29/</loc>
     
     <lastmod>2022-05-07</lastmod>
     
@@ -2220,6 +2229,20 @@
   </url>
   
   <url>
+    <loc>https://hsiulung.github.io/tags/saint/</loc>
+    <lastmod>2023-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hsiulung.github.io/tags/princess-of-wings/</loc>
+    <lastmod>2023-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://hsiulung.github.io/tags/alder/</loc>
     <lastmod>2023-02-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -2262,27 +2285,6 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/tags/saint/</loc>
-    <lastmod>2023-02-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hsiulung.github.io/tags/princess-of-wings/</loc>
-    <lastmod>2023-02-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hsiulung.github.io/tags/snow/</loc>
-    <lastmod>2023-02-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://hsiulung.github.io/tags/devils/</loc>
     <lastmod>2023-02-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -2291,6 +2293,13 @@
   
   <url>
     <loc>https://hsiulung.github.io/tags/GL/</loc>
+    <lastmod>2023-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hsiulung.github.io/tags/snow/</loc>
     <lastmod>2023-02-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2355,13 +2364,6 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/categories/notebook/</loc>
-    <lastmod>2023-02-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://hsiulung.github.io/categories/warriors/</loc>
     <lastmod>2023-02-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -2369,7 +2371,14 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/categories/series/</loc>
+    <loc>https://hsiulung.github.io/categories/notebook/</loc>
+    <lastmod>2023-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hsiulung.github.io/categories/warriors/warriors01/</loc>
     <lastmod>2023-02-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2383,7 +2392,7 @@
   </url>
   
   <url>
-    <loc>https://hsiulung.github.io/categories/warriors/warriors01/</loc>
+    <loc>https://hsiulung.github.io/categories/series/</loc>
     <lastmod>2023-02-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
